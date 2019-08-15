@@ -25,6 +25,21 @@ or
 $ script/run-consul.fish
 ```
 
+### Open Consul Dashboard
+
+```
+$ open http://localhost:8500
+```
+
+### Create Config in Consul
+
+- `Key/Value -> Create`
+- `/config/my-app/my/prop`
+  - my-app: Application Name
+  - my/prop: Config Key
+
+![](./images/consul-config.png)
+
 ## Installation
 
 ## Licence
