@@ -1,4 +1,4 @@
-# Name
+# Spring Cloud Consul - Getting Started
 
 Overview
 
@@ -14,6 +14,16 @@ Overview
 ## Requirement
 
 ## Usage
+
+### Run Consul Container at Local
+
+```
+$ docker run --rm -it -d --name my-consul -p 8500:8500 consul:1.5.3
+```
+or
+```
+$ script/run-consul.fish
+```
 
 ## Installation
 
