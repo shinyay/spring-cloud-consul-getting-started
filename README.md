@@ -33,8 +33,10 @@ $ open http://localhost:8500
 
 ### Create Config in Consul
 
+**config/application-name/key-name**
+
 - `Key/Value -> Create`
-- `/config/my-app/my/prop`
+- `config/my-app/my/prop`
   - my-app: Application Name
   - my/prop: Config Key
 
